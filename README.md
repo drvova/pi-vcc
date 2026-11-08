@@ -1,5 +1,7 @@
 # keel
 
+> **This repository has moved to [drvova/keel](https://github.com/drvova/keel).** It is archived and no longer updated; issues, releases and install instructions live there.
+
 Context management for [omp](https://github.com/can1357/oh-my-pi) (oh-my-pi) and [Pi](https://github.com/earendil-works/pi) coding agents, without an LLM call. When the context fills, keel makes room in two ways, both on out of the box, and nothing it removes is lost:
 
 - **Turns out whole**: old turns leave the request word for word, a one-line pointer stands in their place, and the agent can shape its own context, as [Context Language Models](https://arxiv.org/abs/2609.37725) does.
